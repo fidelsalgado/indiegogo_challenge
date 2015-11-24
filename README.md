@@ -2,14 +2,21 @@
 
 ## Programming Language
 I decided to use JavaScript because I wanted to build a simple but beautiful
-front-end web app. I mostly familiar with Node.js but I knew that for this 
-challenge I did not need to writer server-side code, I could easily implemented
+front-end web app. I'm mostly familiar with Node.js but I knew that for this 
+challenge I did not need to writer server-side code, I could easily implement
 with just Angular.js. I don't have significant experience with front-end 
-development so it was definitely challenge but I'm proud of the result.
+development so it was definitely challenging but I'm proud of the result.
 
 ## Reviewing Code
-I scaffolded my app by using an angular app generator from Yeoman. I only
-modified two files: app/scripts/controllers/main.js and app/views/main.html.
+I scaffolded my app using an angular app generator from Yeoman. I only
+modified two files: 
+```bash
+app/scripts/controllers/main.js 
+```
+and 
+```bash
+app/views/main.html
+```
 The I called the API endpoint using the main controller and I render the data
 using main.html.
 
@@ -17,7 +24,7 @@ using main.html.
 TODO: INCLUDE WEBSITE HERE
 
 ## Running application
-You will first need to download the project, (you will need [git])(https://git-scm.com/book/en/v2/Getting-Started-Installing-Git):
+To download the project run this command, before running it you need [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed:
 ```bash
 $ git clone https://github.com/fidelsalgado/indiegogo_challenge.git
 ```
