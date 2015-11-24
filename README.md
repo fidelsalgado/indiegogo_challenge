@@ -39,4 +39,4 @@ run the following command:
 ```bash
 $ grunt serve
 ```
-Then the project should run your browser!
+Then the project should run on your browser!
