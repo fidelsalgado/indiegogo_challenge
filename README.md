@@ -17,7 +17,7 @@ using main.html.
 TODO: INCLUDE WEBSITE HERE
 
 ## Running application
-You will first need to download the project. You will need [git.](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git):
+You will first need to download the project, (you will need [git])(https://git-scm.com/book/en/v2/Getting-Started-Installing-Git):
 ```bash
 $ git clone https://github.com/fidelsalgado/indiegogo_challenge.git
 ```
