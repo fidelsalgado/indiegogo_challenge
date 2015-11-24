@@ -6,20 +6,15 @@
   </div>
 
   <div class="container">
-    <div class=row ng-repeat="campaign in campaigns | groupBy:4">
-      <div class="col-xs-3 letter-box" ng-repeat="campaign in campaigns" >
-        <div>Letter {{$index + 1}} is: <b> {{campaign}}</b></div>
+    <div class="row top-buffer stylish-panel" ng-repeat="campaignGroup in campaigns | filter:test | chunkBy:2">
+      <div class="col-md-6 letter-box" ng-repeat="campaign in campaignGroup">
+        <div class="text-center">
+          <img src={{campaign.image}} alt="Texto Alternativo" class="img-circle img-thumbnail"></img>
+          <h3><a href={{campaign.url}}>{{campaign.title}}</a></h3>
+          <p>{{campaign.tagline}}</p>
+          <a href={{campaign.url}} class="btn btn-primary" title="See more">See more »</a>
+        </div>
       </div>
     </div>
-    <!--<div class="row stylish-panel">-->
-      <!--<div ng-repeat="campaign in campaigns | filter:test">-->
-        <!--<div class="row">-->
-          <!--<img src={{campaign.image}} alt="Texto Alternativo" class="img-circle img-thumbnail"></img>-->
-          <!--<h3><a href={{campaign.url}}>{{campaign.title}}</a></h3>-->
-          <!--<p>{{campaign.tagline}}</p>-->
-          <!--<a href={{campaign.url}} class="btn btn-primary" title="See more">See more »</a>-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
   </div>
 </div>

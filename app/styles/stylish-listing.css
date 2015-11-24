@@ -24,3 +24,5 @@ tylish-panel {
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
+
+.top-buffer { margin-top:40px } 
