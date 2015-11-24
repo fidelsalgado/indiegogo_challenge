@@ -17,7 +17,7 @@ and
 ```bash
 app/views/main.html
 ```
-The I called the API endpoint using the main controller and I render the data
+I called the API endpoint using the main controller and I render the data
 using main.html.
 
 ## Website
