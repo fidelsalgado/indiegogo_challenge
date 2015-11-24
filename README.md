@@ -21,7 +21,7 @@ I called the API endpoint using the main controller and I render the data
 using main.html.
 
 ## Website
-TODO: INCLUDE WEBSITE HERE
+Coming soon...
 
 ## Running application
 To download the project run this command, before running it you need [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed:
